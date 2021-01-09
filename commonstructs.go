@@ -1,10 +1,6 @@
 //Package gosmarthomecommon contains common items used across multiple go-smarthome projects.
 package gosmarthomecommon
 
-import (
-	"net"
-)
-
 // TemperatureReading contains a temperature reading for a DHT-22 sensor.
 type TemperatureReading struct {
 	Humidity float64 `json:"humudity"`
