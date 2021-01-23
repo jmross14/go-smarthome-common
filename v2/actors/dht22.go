@@ -4,6 +4,7 @@ package actors
 
 import (
 	"time"
+
 	"github.com/MichaelS11/go-dht"
 	"github.com/jmross14/go-smarthome-common/v2/structs"
 )
@@ -50,7 +51,7 @@ func (dht22 *DHT22) Ask(msg structs.Message) structs.Message {
 		}
 		reading := <-ch
 
-		return structs.Message{MessageType: structs.Reading, Message: reading}
+		return structs.Message{MessageType: structs.TakeReading, Message: reading}
 	} else {
 		return structs.Message{MessageType: structs.Error, Message: "Unsupported Message"}
 	}
