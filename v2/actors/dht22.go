@@ -5,7 +5,7 @@ package actors
 import (
 	"time"
 	"github.com/MichaelS11/go-dht"
-	"github.com/jmross14/go-smarthome-common/structs"
+	"github.com/jmross14/go-smarthome-common/v2/structs"
 )
 
 // DHT22 is a model of what is needed to use a DHT22 Temperature Sensor.

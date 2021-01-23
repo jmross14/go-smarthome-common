@@ -1,4 +1,4 @@
-module github.com/jmross14/go-smarthome-common
+module github.com/jmross14/go-smarthome-common/v2
 
 go 1.15
 

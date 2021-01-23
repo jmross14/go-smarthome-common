@@ -2,7 +2,7 @@
 // packages.
 package actors
 
-import "github.com/jmross14/go-smarthome-common/structs"
+import "github.com/jmross14/go-smarthome-common/v2/structs"
 
 // Actor defines a common interface for all actors to follow.
 type Actor interface {

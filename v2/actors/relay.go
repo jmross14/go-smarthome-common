@@ -3,7 +3,7 @@
 package actors
 
 import (
-	"github.com/jmross14/go-smarthome-common/structs"
+	"github.com/jmross14/go-smarthome-common/v2/structs"
 	"periph.io/x/periph/conn/gpio"
 	"periph.io/x/periph/conn/gpio/gpioreg"
 	"periph.io/x/periph/host"
